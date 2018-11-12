@@ -129,7 +129,7 @@ img {
 
 /* line 27, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_content.scss */
 .hero {
-  background: #BBBBBB;
+  background: #bababa;
   min-height: 100px; }
 
 /* line 32, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_content.scss */
@@ -188,7 +188,7 @@ img {
 
 /* line 88, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_content.scss */
 .heroNav__sctn {
-  background-color: #2955A0;
+  background-color: #00a651;
   border-top: 1px solid #ffffff;
   min-height: 76px;
   display: flex;
@@ -245,7 +245,7 @@ img {
 
 /* line 143, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_content.scss */
 .blocFeat--alt {
-  background-color: #BBBBBB;
+  background-color: #bababa;
   padding: 1em;
   transition: all 0.3s ease; }
   @media all and (min-width: 64.375em) {
@@ -366,7 +366,7 @@ img {
 
 /* line 274, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_content.scss */
 .blocUsps {
-  background-color: #BBBBBB;
+  background-color: #bababa;
   padding: 2em 1em 1em 1em; }
 
 /* line 279, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_content.scss */
@@ -919,7 +919,7 @@ p.txt--abtLead {
       margin: 0 1em; } }
   /* line 380, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
   .item--ftrLink:last-child {
-    border-top: 1px solid #333333;
+    border-top: 1px solid #404040;
     font-size: 150%;
     margin: 0.5em 0 0 0;
     padding-top: 0.5em;
@@ -984,7 +984,7 @@ p.txt--abtLead {
 
 /* line 447, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 .link--ftr {
-  color: #BBBBBB;
+  color: #bababa;
   letter-spacing: 1px;
   transition: all 0.3s ease; }
   /* line 451, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
@@ -1000,17 +1000,17 @@ p.txt--abtLead {
 
 /* line 462, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 .bloc__gen a {
-  color: #2955A0;
+  color: #00a651;
   font-weight: 700; }
   /* line 465, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
   .bloc__gen a:hover {
-    color: #115DDD; }
+    color: #00c460; }
 
 /* line 468, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 a.fancybox {
   overflow: hidden;
   display: block;
-  background-color: #2955A0; }
+  background-color: #00a651; }
   /* line 472, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
   a.fancybox img {
     -webkit-transform: scale(1);
@@ -1027,8 +1027,8 @@ a.fancybox {
 .btn {
   background-color: #ffffff;
   border-radius: 4px;
-  border: 2px solid #2955A0;
-  color: #2955A0;
+  border: 2px solid #00a651;
+  color: #00a651;
   display: table;
   font: 700 75%/1 "Open Sans", helvetica, sans-serif;
   margin: 0 auto;
@@ -1040,8 +1040,8 @@ a.fancybox {
   /* line 499, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
   .btn:hover {
     background-color: #ffffff;
-    border: 2px solid #115DDD;
-    color: #115DDD !important;
+    border: 2px solid #00c460;
+    color: #00c460 !important;
     -webkit-transform: scale(1.05);
             transform: scale(1.05); }
 
@@ -1061,13 +1061,13 @@ a.fancybox {
 
 /* line 519, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 .btn--dark {
-  background-color: #2955A0;
+  background-color: #00a651;
   color: #ffffff !important;
   transition: all 0.3s ease; }
   /* line 523, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
   .btn--dark:hover {
-    background-color: #115DDD;
-    border: 2px solid #115DDD;
+    background-color: #00c460;
+    border: 2px solid #00c460;
     color: #ffffff !important; }
 
 /* line 530, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
@@ -1094,7 +1094,7 @@ a.fancybox {
 /* line 4, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_header.scss */
 #header {
   background-color: #F8F8F8;
-  border-bottom: 4px solid #2955A0;
+  border-bottom: 4px solid #00a651;
   height: 64px;
   padding: 0 0 0 1em;
   position: fixed;
@@ -1153,7 +1153,7 @@ a.fancybox {
 #menu:not(:target) > a:first-of-type,
 #menu:target > a:last-of-type {
   display: inline-block;
-  color: #2955A0;
+  color: #00a651;
   font: normal normal 13px/1 "Open Sans", helvetica, sans-serif;
   padding: 0 0 0 24px;
   text-transform: uppercase;
@@ -1177,8 +1177,8 @@ a.fancybox {
 /* line 36, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_nav.scss */
 .burger:after {
   content: '';
-  background-color: #2955A0;
-  box-shadow: 0 5px 0 #2955A0, 0 10px 0 #2955A0;
+  background-color: #00a651;
+  box-shadow: 0 5px 0 #00a651, 0 10px 0 #00a651;
   height: 2px;
   position: absolute;
   width: 20px;
@@ -1188,7 +1188,7 @@ a.fancybox {
   @media all and (min-width: 64.375em) {
     /* line 36, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_nav.scss */
     .burger:after {
-      box-shadow: 0 8px 0 #2955A0, 0 16px 0 #2955A0;
+      box-shadow: 0 8px 0 #00a651, 0 16px 0 #00a651;
       height: 3px;
       width: 30px;
       margin-top: 2px; } }
@@ -1213,8 +1213,8 @@ a.fancybox {
   overflow: scroll; }
   /* line 71, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_nav.scss */
   #menu > ul li {
-    background-color: #2955A0;
-    border-bottom: 1px solid #254D99;
+    background-color: #00a651;
+    border-bottom: 1px solid #008943;
     float: none;
     width: 100%;
     text-align: left; }
@@ -1224,7 +1224,7 @@ a.fancybox {
         text-align: left; } }
     /* line 80, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_nav.scss */
     #menu > ul li a {
-      color: #8EB9FF;
+      color: #54e59a;
       display: block;
       font: normal normal 120%/1 "Bungee", helvetica, sans-serif;
       padding: 1em;
@@ -1234,16 +1234,16 @@ a.fancybox {
         color: #ffffff; }
     /* line 88, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_nav.scss */
     #menu > ul li:hover {
-      background-color: #115DDD; }
+      background-color: #00c460; }
 
 /* line 92, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_nav.scss */
 #menu > ul li ul li {
-  background-color: #254D99;
-  border-bottom: 1px solid #22478C; }
+  background-color: #008943;
+  border-bottom: 1px solid #007a3b; }
 
 /* line 97, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_nav.scss */
 #menu:target > ul {
-  background-color: #2955A0;
+  background-color: #00a651;
   display: block;
   left: -1em;
   top: 42px;
@@ -1311,17 +1311,17 @@ label {
 input[type="text"], input[type="tel"],
 input[type="email"], textarea {
   background-color: #ffffff;
-  border: 1px solid #BBBBBB;
-  color: #333333;
+  border: 1px solid #bababa;
+  color: #404040;
   font: normal normal 120%/1 "Open Sans", helvetica, sans-serif;
   padding: 0.5em;
   width: 100%; }
 
 /* line 31, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_forms.scss */
 button, input[type="submit"] {
-  background-color: #2955A0;
+  background-color: #00a651;
   border-radius: 4px;
-  border: 2px solid #2955A0;
+  border: 2px solid #00a651;
   color: #ffffff;
   display: table;
   font: 700 75%/1 "Open Sans", helvetica, sans-serif;
@@ -1331,8 +1331,8 @@ button, input[type="submit"] {
   transition: all 0.3s ease; }
   /* line 42, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_forms.scss */
   button:hover, input[type="submit"]:hover {
-    background-color: #115DDD;
-    border: 2px solid #115DDD;
+    background-color: #00c460;
+    border: 2px solid #00c460;
     color: #ffffff;
     -webkit-transform: scale(1.05);
             transform: scale(1.05); }

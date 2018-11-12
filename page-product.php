@@ -43,7 +43,7 @@ get_header(); ?>
 		</section> <!-- END .blocFeat -->
 		
 		<section class="blocUsps">
-			<h1 class="hdln hdln--featSec">Key Features</h1>
+			<h1 class="hdln hdln--featSec"><?php the_field('prd_name'); ?> Features</h1>
 			<div class="wrap blocUsps__wrap">
 				<?php if( have_rows('prd_usps') ): ?>
 				<?php while( have_rows('prd_usps') ): the_row(); 
