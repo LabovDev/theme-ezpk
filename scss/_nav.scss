@@ -15,7 +15,7 @@
 #menu:target > a:last-of-type { 
   display: inline-block;
   color: $cl-1;
-  font: normal normal 13px/1 $fnt-1;
+  font: 800 italic 16px/.6 $fnt-1;
   padding: 0 0 0 24px;
   text-transform: uppercase;
   &:before {
@@ -25,6 +25,7 @@
   @include trans(all, 0.3s, ease);
   @media all and (min-width:$bp-6) {
     font-size: 22px;
+    line-height: 1;
     padding: 0 0 0 48px;
   }
 }

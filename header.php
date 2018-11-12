@@ -7,7 +7,7 @@
 	<?php wp_head(); ?>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('url'); ?>/wp-content/themes/theme-ezpk/css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('url'); ?>/wp-content/themes/theme-ezpk/css/styles.css" />
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee|Open+Sans:400,700">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:800,900|Open+Sans:400,700" rel="stylesheet"> 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/theme-ezpk/js/doubletaptogo.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/theme-ezpk/js/csth-scripts-min.js"></script>

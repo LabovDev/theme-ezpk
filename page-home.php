@@ -17,8 +17,8 @@ get_header(); ?>
 			
 			<section class="wrap heroNav">
 				<section class="bloc--50 heroNav__sctn heroNav__sctn--01"><a class="link link--heroNav" href="<?php bloginfo('url'); ?>/?page_id=18">About</a></section>
-				<section class="bloc--50 heroNav__sctn heroNav__sctn--02"><a class="link link--heroNav" href="<?php bloginfo('url'); ?>/?page_id=10">Mixers</a></section>
-				<section class="bloc--50 heroNav__sctn heroNav__sctn--04"><a class="link link--heroNav" href="<?php bloginfo('url'); ?>/?page_id=14">Parts &amp; Service</a></section>
+				<section class="bloc--50 heroNav__sctn heroNav__sctn--02"><a class="link link--heroNav" href="<?php bloginfo('url'); ?>/?page_id=10">Refuse Haulers</a></section>
+				<section class="bloc--50 heroNav__sctn heroNav__sctn--04"><a class="link link--heroNav" href="<?php bloginfo('url'); ?>/?page_id=14">Parts &amp; Support</a></section>
 				<section class="bloc--50 heroNav__sctn heroNav__sctn--03"><a class="link link--heroNav" href="<?php bloginfo('url'); ?>/?page_id=16">Contact</a></section>
 			</section> <!-- END .heroNav -->
 			

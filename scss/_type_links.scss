@@ -15,14 +15,6 @@
   }
 }
 
-@font-face {
-    font-family: 'introrustg-base2line';
-    src: url('../fonts/introrustg-base2line-webfont.woff2') format('woff2'),
-         url('../fonts/introrustg-base2line-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 //*  HEADLINES
 //*=========================================== 
 
@@ -55,6 +47,7 @@ h2:empty { display: none; }
 	flex-grow: 1;
 	text-align: center;
 	text-shadow: $txt-drop;
+	text-transform: uppercase;;
 	margin: 0 auto $space-qrtr auto;
 	@include trans(all, 0.3s, ease);
 	@media all and (min-width:$bp-2) {
@@ -434,10 +427,9 @@ p.txt--abtLead {
 
 .link--heroNav {
 	color: $w;
-	font: normal normal 100%/1 $fnt-2;
+	font: normal normal 150%/1 $fnt-2;
 	letter-spacing: .05em;
 	text-decoration: none;
-	
 	@include trans(all, 0.3s, ease);
 	&:hover {
 		transform: scale(1.1);
