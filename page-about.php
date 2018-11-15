@@ -95,7 +95,6 @@ get_header(); ?>
 		</div> <!-- END .wrap--mxw -->
 	</article>
 
-	<?php if ( ! post_password_required() ) comments_template( '', true ); ?>
 	<?php endwhile; endif; ?>
 
 </section>

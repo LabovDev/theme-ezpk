@@ -2,7 +2,8 @@
 //*===========================================
 
 .ftr {
-	background-color: $k;
+	border-top: 4px solid $cl-1;
+	background-color: $gr-1;
 	padding: $space;
 	position: relative;
 	z-index: 1;

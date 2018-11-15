@@ -21,6 +21,8 @@ img {
   width: 100%;
 }
 
+#ssf-overlay img { width: auto; }
+
 //*  HOME -- Hero 
 //*===========================================
 
@@ -154,6 +156,12 @@ img {
 	}
 }
 
+body.home .blocFeat,
+body.page-template-page-product .blocFeat {
+	background-color: $k;
+	color: $w;
+}
+
 .blocFeat__cntnt:nth-child(1) {
 	margin-bottom: $space-2x;
 	@include trans(all, 0.3s, ease);
@@ -193,6 +201,8 @@ img {
 		}
 	}
 }
+
+body.home .blocFeat--full { background-color: $gr-3; }
 
 #featMore-01, #featMore-02,
 #featMore-03, #overMore,
@@ -234,6 +244,10 @@ img {
 	position: relative;
 	max-height: 600px;
 	z-index: 500;
+}
+
+body.page-template-page-dist .hero--gen {
+	height: auto;
 }
 
 .wrap--gen {

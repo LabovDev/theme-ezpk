@@ -96,9 +96,14 @@ span.hdln--heroBig {
 	margin-bottom: $space-half;
 }
 
+body.home .hdln--feat,
+body.page-template-page-product .hdln--feat { color: $w; }
+
 .hdln--featFull {
 	text-align: center;
 }
+
+body.home .hdln--featFull { color: $k; }
 
 .hdln--featSec {
 	color: $gr-4;
@@ -117,6 +122,12 @@ span.hdln--heroBig {
 	font-size: 80%;
 	margin-bottom: $space;
 	padding: $space-half;
+}
+
+body.home .hdln--featSub,
+body.page-template-page-product .hdln--featSub { 
+	background-color: $gr-4; 
+	color: $k; 
 }
 
 .hdln--featSubFull {
@@ -246,6 +257,8 @@ span.hdln--heroBig {
 		font-size: 80%;
 	}
 }
+
+body.home .blocFeat--full .blocFeat__cntnt p { color: $k; }
 
 .blocAbt__cntnt p { 
 	font-size: 3.5vw;
@@ -387,8 +400,6 @@ p.txt--abtLead {
 	color: $w;
 	text-decoration: none;
 }
-
-
 
 //*  TABLES
 //*===========================================
@@ -536,3 +547,40 @@ a.fancybox {
 		margin: $space; 
 	}
 }
+
+//* SUPER STORE FINDER
+//*===========================================
+
+.ssf-main-content {
+	a { 
+		line-height: 1; 
+		text-decoration: none !important; }
+	.title {
+		font-weight: 700;
+		font-style: italic;
+		font-size: 160%;
+		text-transform: uppercase;
+	}
+	.store-location {
+		font-weight: 700;
+		font-style: italic;
+		font-size: 20px;
+		text-transform: uppercase;;
+	}
+	.store-address { line-height: 1.2; }
+	.infobox__subtitle {
+		font-size: 14px;
+		color: #878787;
+	}
+	.store-website a {
+	}
+	.store-website, .store-email { margin-bottom: 1em; }
+	.infobox__cta, .infobox__stv {
+		text-align: left;
+		padding: 12px 12px 12px 0 !important;
+		margin: 0 1em;
+	}
+}
+
+
+

@@ -1,6 +1,6 @@
 <?php
 
-// Template Name: General
+// Template Name: Distributors
 
 get_header(); ?>
 
@@ -15,13 +15,8 @@ get_header(); ?>
 		</header>
 
 		<section class="wrap wrap--gen">
-			<div class="bloc--66 bloc__gen">
-				<h2 class="hdln hdln--feat"><?php the_field('gen_pnlhead_01'); ?></h2>	
-				<?php the_field('gen_pnltxt_01'); ?>
-			</div>
-			<div class="bloc--33 bloc__gen">
-				<h4 class="hdln hdln--feat"><?php the_field('gen_pnlhead_02'); ?></h4>	
-				<?php the_field('gen_pnltxt_02'); ?>
+			<div class="bloc bloc__gen">
+				<?php if (function_exists('ssf_wp_template')) {print ssf_wp_template('[SUPER-STORE-FINDER]');} ?>
 			</div>
 		</section> <!-- END .blocFeatSplit -->
 			

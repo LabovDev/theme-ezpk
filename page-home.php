@@ -44,6 +44,27 @@ get_header(); ?>
 				</div>
 							
 			</section> <!-- END .blocFeatSplit -->
+
+			<section class="wrap blocFeat blocFeat--full">
+				<div class="bloc--100 blocFeat__img">
+					<?php 
+						$image = get_field('feat_img_03');
+						if( !empty($image) ): ?>
+							<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+					<?php endif; ?>
+				</div>
+				<div class="bloc--100 blocFeat__cntnt">
+					<h1 class="hdln hdln--feat  hdln--featFull"><?php the_field('feat_head_03'); ?></h1>
+					<h2 class="hdln hdln--featSub hdln--featSubFull"><?php the_field('feat_sub_head_03'); ?></h2>
+					<p class="txt txt--feat txt--featFull"><?php the_field('feat_txt_03'); ?></p>
+					<div id="featMore-03">
+						<div class="bloc--100 blocFeat__more">
+							<?php the_field('feat_txt_03_more'); ?>
+						</div>
+					</div>	
+					<button class="btn btn--dark" id="feat3">Learn More</button>			
+				</div>
+			</section>
 			
 			<section class="wrap blocFeat blocFeat--alt">
 				<div class="bloc--50 blocFeat__img">
@@ -66,27 +87,6 @@ get_header(); ?>
 	
 				</div>				
 			</section> <!-- END .blocFeatSplit -->
-			
-			<section class="wrap blocFeat blocFeat--full">
-				<div class="bloc--100 blocFeat__img">
-					<?php 
-						$image = get_field('feat_img_03');
-						if( !empty($image) ): ?>
-							<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-					<?php endif; ?>
-				</div>
-				<div class="bloc--100 blocFeat__cntnt">
-					<h1 class="hdln hdln--feat  hdln--featFull"><?php the_field('feat_head_03'); ?></h1>
-					<h2 class="hdln hdln--featSub hdln--featSubFull"><?php the_field('feat_sub_head_03'); ?></h2>
-					<p class="txt txt--feat txt--featFull"><?php the_field('feat_txt_03'); ?></p>
-					<div id="featMore-03">
-						<div class="bloc--100 blocFeat__more">
-							<?php the_field('feat_txt_03_more'); ?>
-						</div>
-					</div>	
-					<button class="btn btn--dark" id="feat3">Learn More</button>			
-				</div>
-			</section>
 			
 		</div> <!-- END .wrap--mxw -->
 	</article>
