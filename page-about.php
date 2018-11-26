@@ -29,12 +29,6 @@ get_header(); ?>
 				<h1 class="hdln hdln--feat"><?php the_field('abt_pnlhead_01'); ?></h1>
 				<h2 class="hdln hdln--featSub"><?php the_field('abt_pnlsub_head_01'); ?></h2>					
 				<?php the_field('abt_pnltxt_01'); ?>
-				<div id="abtMore-01">
-					<div class="bloc blocFeat__more">
-						<?php the_field('abt_pnltxt_01_more'); ?>
-					</div>
-				</div>
-				<button class="btn btn--dark" id="abt1">More</button>
 			</div>
 			<div class="bloc--50 blocAbt__img">
 				<?php 

@@ -575,7 +575,7 @@ h2:empty {
 /* line 44, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 .hdln--hero {
   color: #ffffff;
-  font: normal normal 6vw/1 "Fira Sans", sans-serif;
+  font: 800 normal 6vw/1 "Fira Sans", sans-serif;
   flex-grow: 1;
   text-align: center;
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.76);
@@ -625,7 +625,7 @@ span.hdln--heroBig {
   @media all and (min-width: 51.875em) {
     /* line 77, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
     .hdln--heroSub {
-      font-size: 120%; } }
+      font-size: 150%; } }
 
 /* line 93, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 .hdln--feat {
@@ -1013,49 +1013,53 @@ p.txt--abtLead {
   .link--heroNav:hover {
     -webkit-transform: scale(1.1);
             transform: scale(1.1); }
+  @media all and (min-width: 45.625em) {
+    /* line 439, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+    .link--heroNav {
+      font-size: 170%; } }
 
-/* line 450, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+/* line 453, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 .link--ftr {
   color: #bababa;
   letter-spacing: 1px;
   transition: all 0.3s ease; }
-  /* line 454, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+  /* line 457, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
   .link--ftr:hover {
     color: #ffffff;
     -webkit-transform: scale(1.1);
             transform: scale(1.1); }
 
-/* line 460, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+/* line 463, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 .link--mouse {
   border-bottom: 1px dotted #666666;
   color: #666666; }
 
-/* line 465, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+/* line 468, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 .bloc__gen a {
   color: #00a651;
   font-weight: 700; }
-  /* line 468, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+  /* line 471, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
   .bloc__gen a:hover {
     color: #00c460; }
 
-/* line 471, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+/* line 474, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 a.fancybox {
   overflow: hidden;
   display: block;
   background-color: #00a651; }
-  /* line 475, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+  /* line 478, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
   a.fancybox img {
     -webkit-transform: scale(1);
             transform: scale(1);
     opacity: 1;
     transition: all 0.3s ease; }
-    /* line 479, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+    /* line 482, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
     a.fancybox img:hover {
       -webkit-transform: scale(1.1);
               transform: scale(1.1);
       opacity: .5; }
 
-/* line 489, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+/* line 492, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 .btn {
   background-color: #ffffff;
   border-radius: 4px;
@@ -1069,7 +1073,7 @@ a.fancybox {
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.3s ease; }
-  /* line 502, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+  /* line 505, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
   .btn:hover {
     background-color: #ffffff;
     border: 2px solid #00c460;
@@ -1077,32 +1081,32 @@ a.fancybox {
     -webkit-transform: scale(1.05);
             transform: scale(1.05); }
 
-/* line 510, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+/* line 513, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 .btn--ms {
   margin: 1em auto 0 auto;
   font-size: 55%;
   transition: all 0.3s ease; }
   @media all and (min-width: 33.125em) {
-    /* line 510, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+    /* line 513, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
     .btn--ms {
       font-size: 65%; } }
   @media all and (min-width: 45.625em) {
-    /* line 510, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+    /* line 513, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
     .btn--ms {
       font-size: 75%; } }
 
-/* line 522, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+/* line 525, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 .btn--dark {
   background-color: #00a651;
   color: #ffffff !important;
   transition: all 0.3s ease; }
-  /* line 526, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+  /* line 529, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
   .btn--dark:hover {
     background-color: #00c460;
     border: 2px solid #00c460;
     color: #ffffff !important; }
 
-/* line 533, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+/* line 536, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 .btn--mxr {
   color: #ffffff !important;
   text-align: left;
@@ -1110,52 +1114,52 @@ a.fancybox {
   margin: 0;
   width: 100%; }
 
-/* line 541, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+/* line 544, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 .btn--prd {
   width: 100%;
   transition: all 0.3s ease; }
-  /* line 543, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+  /* line 546, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
   .btn--prd:first-child {
     margin-bottom: 1em; }
   @media all and (min-width: 45.625em) {
-    /* line 541, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+    /* line 544, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
     .btn--prd {
       width: auto;
       margin: 1em; } }
 
-/* line 555, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+/* line 558, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 .ssf-main-content a {
   line-height: 1;
   text-decoration: none !important; }
 
-/* line 558, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+/* line 561, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 .ssf-main-content .title {
   font-weight: 700;
   font-style: italic;
   font-size: 160%;
   text-transform: uppercase; }
 
-/* line 564, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+/* line 567, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 .ssf-main-content .store-location {
   font-weight: 700;
   font-style: italic;
   font-size: 20px;
   text-transform: uppercase; }
 
-/* line 570, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+/* line 573, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 .ssf-main-content .store-address {
   line-height: 1.2; }
 
-/* line 571, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+/* line 574, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 .ssf-main-content .infobox__subtitle {
   font-size: 14px;
   color: #878787; }
 
-/* line 577, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+/* line 580, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 .ssf-main-content .store-website, .ssf-main-content .store-email {
   margin-bottom: 1em; }
 
-/* line 578, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
+/* line 581, Users/jtuck/Sites/ezpk/wp-content/themes/theme-ezpk/scss/_type_links.scss */
 .ssf-main-content .infobox__cta, .ssf-main-content .infobox__stv {
   text-align: left;
   padding: 12px 12px 12px 0 !important;

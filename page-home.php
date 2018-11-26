@@ -48,42 +48,42 @@ get_header(); ?>
 			<section class="wrap blocFeat blocFeat--full">
 				<div class="bloc--100 blocFeat__img">
 					<?php 
-						$image = get_field('feat_img_03');
+						$image = get_field('feat_img_02');
 						if( !empty($image) ): ?>
 							<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 					<?php endif; ?>
 				</div>
 				<div class="bloc--100 blocFeat__cntnt">
-					<h1 class="hdln hdln--feat  hdln--featFull"><?php the_field('feat_head_03'); ?></h1>
-					<h2 class="hdln hdln--featSub hdln--featSubFull"><?php the_field('feat_sub_head_03'); ?></h2>
-					<p class="txt txt--feat txt--featFull"><?php the_field('feat_txt_03'); ?></p>
-					<div id="featMore-03">
+					<h1 class="hdln hdln--feat  hdln--featFull"><?php the_field('feat_head_02'); ?></h1>
+					<h2 class="hdln hdln--featSub hdln--featSubFull"><?php the_field('feat_sub_head_02'); ?></h2>
+					<p class="txt txt--feat txt--featFull"><?php the_field('feat_txt_02'); ?></p>
+					<div id="featMore-02">
 						<div class="bloc--100 blocFeat__more">
-							<?php the_field('feat_txt_03_more'); ?>
+							<?php the_field('feat_txt_02_more'); ?>
 						</div>
 					</div>	
-					<button class="btn btn--dark" id="feat3">Learn More</button>			
+					<button class="btn btn--dark" id="feat2">Learn More</button>			
 				</div>
 			</section>
 			
 			<section class="wrap blocFeat blocFeat--alt">
 				<div class="bloc--50 blocFeat__img">
 					<?php 
-						$image = get_field('feat_img_02');
+						$image = get_field('feat_img_03');
 						if( !empty($image) ): ?>
 							<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 					<?php endif; ?>
 				</div>
 				<div class="bloc--50 blocFeat__cntnt">
-					<h1 class="hdln hdln--feat"><?php the_field('feat_head_02'); ?></h1>
-					<h2 class="hdln hdln--featSub"><?php the_field('feat_sub_head_02'); ?></h2>
+					<h1 class="hdln hdln--feat"><?php the_field('feat_head_03'); ?></h1>
+					<h2 class="hdln hdln--featSub"><?php the_field('feat_sub_head_03'); ?></h2>
 					<?php the_field('feat_txt_03'); ?>
-					<div id="featMore-02">
+					<div id="featMore-03">
 						<div class="bloc--100 blocFeat__more">
-							<?php the_field('feat_txt_02_more'); ?>
+							<?php the_field('feat_txt_03_more'); ?>
 						</div>
 					</div>
-					<button class="btn btn--dark" id="feat2">Learn More</button>
+					<button class="btn btn--dark" id="feat3">Learn More</button>
 	
 				</div>				
 			</section> <!-- END .blocFeatSplit -->

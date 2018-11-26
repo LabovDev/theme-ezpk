@@ -43,7 +43,7 @@ h2:empty { display: none; }
 
 .hdln--hero {
 	color: $w;
-	font: normal normal 6vw/1 $fnt-3;
+	font: 800 normal 6vw/1 $fnt-3;
 	flex-grow: 1;
 	text-align: center;
 	text-shadow: $txt-drop;
@@ -86,7 +86,7 @@ span.hdln--heroBig {
 		margin-bottom: $space;
 	}
 	@media all and (min-width:$bp-4) {
-		font-size: 120%;
+		font-size: 150%;
 	}
 }
 
@@ -444,6 +444,9 @@ p.txt--abtLead {
 	@include trans(all, 0.3s, ease);
 	&:hover {
 		transform: scale(1.1);
+	}
+	@media all and (min-width:$bp-3) {
+		font-size: 170%;
 	}
 }
 
