@@ -142,6 +142,15 @@ img {
 	}
 }
 
+.blocTruck {
+	padding: $space;
+	width: 100%;
+	@include trans(all, 0.3s, ease);
+	@media all and (min-width:$bp-3) {
+		width: 50%;
+	}
+}
+
 .blocFeat--alt {
 	background-color: $gr-3;
 	padding: $space;
@@ -342,6 +351,15 @@ body.page-template-page-dist .hero--gen {
 	}
 }
 
+.truckCta {
+	margin: 0 0 $space-2x 0;
+	width: 100%;
+	@include trans(all, 0.3s, ease);
+	@media all and (min-width:$bp-3) {
+		justify-content: center;
+	}
+}
+
 .blocSpecs {
 	padding: $space $space $space-4x $space;
 }
@@ -361,13 +379,16 @@ body.page-template-page-dist .hero--gen {
 		flex-start,
 		flex-start
 	)
-	background-color: $gr-4;
 	padding: $space;
 	div {
 		margin-bottom: $space-2x;
 	}
 	.img--stock {
 		margin-bottom: $space;
+	}
+	@include trans(all, 0.3s, ease);
+	@media all and (min-width:$bp-3) {
+		padding: 0;
 	}
 }
 

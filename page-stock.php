@@ -11,59 +11,43 @@ get_header(); ?>
 		<header>
 			<div class="bloc hero hero--instock">
 				<h1 class="hdln hdln--hero hdln--cntnt">In-stock Mixers</h1>
-					<?php the_content(); ?>
 			</div> <!-- END .heroImg -->
 		</header>
+
+
+
+
+		<section class="bloc instock" id="content" role="main">
+			<div class="inStock__item">
+
+			<?php
+				$args = array(
+  				'post_type'   => 'in_stock_trucks',
+  				'post_status' => 'publish'
+ 				);
+ 
+				$in_stock_trucks = new WP_Query( $args );
+				if( $in_stock_trucks->have_posts() ) :
+			?>
+			<?php
+      while( $in_stock_trucks->have_posts() ) :
+        $in_stock_trucks->the_post();
+      ?>
 		
-		<section class="bloc inStock">
-			
-			<?php if( have_rows('add_truck') ): ?>
-			
-				<div class="inStock__item">
-			
-				<?php while( have_rows('add_truck') ): the_row(); 
-			
-					// vars
-					$name = get_sub_field('truck_name');
-					$image = get_sub_field('truck_image');
-					$specpdf = get_sub_field('truck_spec_pdf');
-					$desc = get_sub_field('truck_desc');
-					$feat = get_sub_field('truck_features');
-			
-					?>
-					<div class="bloc--50">
-						<h1 class="hdln hdln--stock"><?php echo $name ?></h1>
-						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>"  class="img--stock" />
-						<?php if( $specpdf ): ?>
-							<a href="<?php echo $specpdf; ?>" class="btn">
-						<?php endif; ?>
-						
-							Download Spec' Sheet (PDF)
-						
-						<?php if( $specpdf ): ?>
-							</a> 
-						<?php endif; ?>
-					</div>
-					<div class="bloc--50">
-						<p class="txt txt--stockDesc"><?php echo $desc ?></p>
-						<?php if( have_rows('truck_features') ): ?>
-							<ul class="list list--stock">
-								<?php  while( have_rows('truck_features') ): the_row(); ?>
-									<li class="item item--stock"><?php the_sub_field('truck_feat'); ?></li>
-								<?php endwhile; ?>
-							</ul>
-						<?php endif; ?>
-					</div>
-				<?php endwhile; ?>
-				</div> <!-- END .inStock__item -->
-			
-			<?php endif; ?>			
-			
-		</section> <!-- END .inStock -->
-	</article>
+			<div class="bloc bloc--50 blocTruck">
+				<a href="<?php the_permalink(); ?>"><?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?></a>
+				<h1 class="hdln hdln--stock"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+				<?php the_content(); ?>
+				<a href="<?php the_permalink(); ?>" class="btn btn--dark">More Info</a>
+			</div>
+		
+			<?php endwhile; wp_reset_postdata(); ?>
+			<?php else : esc_html_e( 'No trucks for sale at this time.', 'text-domain' ); endif; ?>				
 
-	<?php endwhile; endif; ?>
+			</div>
 
-</section>
-
+		
+		</section>
+		<?php endwhile; endif; ?>
+		
 <?php get_footer(); ?>

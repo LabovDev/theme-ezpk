@@ -198,6 +198,24 @@ body.page-template-page-product .hdln--featSub {
 
 .hdln--stock {
 	margin: 0 auto $space auto;
+	a {
+		color: $k;
+		display: block;
+		margin: $space auto -.5em auto;
+		text-decoration: none;
+	}
+}
+
+.hdln--truckSub {
+	background-color: $k;
+	color: $w;
+	display: table;
+	font-size: 80%;
+	padding: $space-qrtr $space;
+	margin: 0 auto;
+	max-width: 700px;
+	text-align: center;
+	width: 100%;
 }
 
 //*  PARAGRAPHS
@@ -429,6 +447,33 @@ p.txt--abtLead {
 	&:nth-child(even) { background-color: #eee; }
 }
 
+.trTable {
+	border-spacing: 0;
+	margin: $space 0;
+	width: 100%;
+	tr {
+		background-color: $gr-4;
+		td { width: 50%; }
+	}
+}
+
+.trTable--main {
+	margin: 0 0 $space-2x 0;
+	tr:nth-child(odd) { background-color: $gr-4; }
+	tr:nth-child(even) { background-color: $w; }
+}
+
+.txt--trLabel {
+	font-weight: 700;
+}
+
+.txt--trValue, .txt--trLabel {
+	font-size: 80%;
+	padding: $space-qrtr $space-half;
+	width: 50%;
+	vertical-align: top;
+}
+
 //*  LINKS
 //*===========================================
 
@@ -548,6 +593,17 @@ a.fancybox {
 	@media all and (min-width:$bp-3) {
 		width: auto;
 		margin: $space; 
+	}
+}
+
+@media all and (min-width:$bp-3) {
+	.truckCta {
+		.btn--prd {
+			margin: $space 0;
+			// width: calc(50% - .5em);
+			&:first-child {margin: $space $space-half $space 0;}
+			&:last-child {margin: $space 0 $space $space-half;}
+		}
 	}
 }
 
