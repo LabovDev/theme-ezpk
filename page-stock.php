@@ -38,7 +38,10 @@ get_header(); ?>
 				<a href="<?php the_permalink(); ?>"><?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?></a>
 				<h1 class="hdln hdln--stock"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 				<?php the_content(); ?>
-				<a href="<?php the_permalink(); ?>" class="btn btn--dark">More Info</a>
+				<div class="wrap truckCta">
+					<a href="<?php the_permalink(); ?>" class="btn btn--dark">Contact Us About This Truck</a>
+					<a href="<?php the_permalink(); ?>" class="btn">More Info</a>
+				</div>
 			</div>
 		
 			<?php endwhile; wp_reset_postdata(); ?>

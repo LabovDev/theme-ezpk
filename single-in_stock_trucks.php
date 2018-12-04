@@ -7,13 +7,14 @@
 				<?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
 			</div>
 			<div class="bloc bloc--50 blocTruck">
+				<h1 class="hdln hdln--stock"><?php the_title(); ?></h1>
 				<?php the_content(); ?>
 				<p class="txt"><?php the_field('tr_desc'); ?></p>
 				<div class="wrap truckCta">
 					<!-- <a href="<?php the_field('tr_file'); ?>" class="btn btn--prd">Download Spec' Sheet PDF</a> -->
 					<a href="<?php bloginfo('url'); ?>/?page_id=16" class="btn btn--prd btn--dark">Contact Us About This Truck</a>
 				</div> <!-- END .blocCta -->
-				<h2 class="hdln hdln--truckSub">Chasis Features</h2>
+				<h2 class="hdln hdln--truckSub">Chassis Features</h2>
 					<?php
 						// vars
 						$chasis = get_field('trCfeat');	

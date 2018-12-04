@@ -197,6 +197,8 @@ body.page-template-page-product .hdln--featSub {
 }
 
 .hdln--stock {
+	font-size: 160%;
+	line-height: 1;
 	margin: 0 auto $space auto;
 	a {
 		color: $k;
@@ -595,6 +597,21 @@ a.fancybox {
 		margin: $space; 
 	}
 }
+
+.truckCta {
+	.btn {
+		display: block;
+		margin-bottom: 0;
+		width: 100%;
+		@include trans(all, 0.3s, ease);
+		@media all and (min-width:$bp-5) {
+			width: auto;
+		}
+	}
+	.btn--dark { margin-bottom: $space; }
+
+}
+
 
 @media all and (min-width:$bp-3) {
 	.truckCta {

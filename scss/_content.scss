@@ -352,11 +352,12 @@ body.page-template-page-dist .hero--gen {
 }
 
 .truckCta {
-	margin: 0 0 $space-2x 0;
+	margin: 0 !important;
 	width: 100%;
 	@include trans(all, 0.3s, ease);
 	@media all and (min-width:$bp-3) {
 		justify-content: center;
+		margin: 0 0 $space-2x 0 !important;
 	}
 }
 
@@ -381,7 +382,7 @@ body.page-template-page-dist .hero--gen {
 	)
 	padding: $space;
 	div {
-		margin-bottom: $space-2x;
+		margin-bottom: $space;
 	}
 	.img--stock {
 		margin-bottom: $space;
