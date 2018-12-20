@@ -57,7 +57,7 @@
 							<td class="txt txt--trValue"><?php echo $chasis['trGvwr']; ?></td>
 						</tr>
 						<tr>
-							<td class="txt txt--trLabel">Chasis Options</td>
+							<td class="txt txt--trLabel">Chassis Options</td>
 							<td class="txt txt--trValue"><?php echo $chasis['trCopt']; ?></td>
 						</tr>
 					</table>

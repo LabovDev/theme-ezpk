@@ -11,7 +11,7 @@ get_header(); ?>
 		<header>
 			<div class="bloc hero hero--about" style="background: url('<?php the_field('abt_hero_img'); ?>') top center/cover no-repeat;">
 				<div>
-					<h1 class="hdln hdln--hero">The Continental <span class="hdln--heroBig">Difference</span></h1>
+					<h1 class="hdln hdln--hero">The E-Z Pack <span class="hdln--heroBig">Difference</span></h1>
 					<h2 class="hdln hdln--heroSub"><?php the_field('abt_hdlnSub'); ?></h2>
 					<p class="txt txt--hero"><?php the_field('abt_hero_txt'); ?></p>
 				</div>
@@ -80,7 +80,7 @@ get_header(); ?>
 				<?php endif; ?>				
 			</div>			
 			<div class="wrap blocCta" style="margin-top: 3em; ">
-				<a href="<?php bloginfo('url'); ?>/?page_id=32" class="btn btn--prd btn--dark">Continental Mixers is a CSTH company</a>
+				<a href="<?php bloginfo('url'); ?>/?page_id=32" class="btn btn--prd btn--dark">E-Z Pack is a CSTH company</a>
 			</div> <!-- END .blocCta -->
 		</section> <!-- END .blocFeatSplit -->
 
