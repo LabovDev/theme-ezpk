@@ -2,7 +2,7 @@
 			<footer class="ftr" role="contentinfo">
 				<div class="ftr__links">
 					<ul>
-						<li class="item item--ftrLink"><a class="link link--ftr" href="<?php bloginfo('url'); ?>/?page_id=22">Hercules Front Hauler</a></li>
+						<li class="item item--ftrLink"><a class="link link--ftr" href="<?php bloginfo('url'); ?>/?page_id=22">Hercules Front Loader</a></li>
 						<li class="item item--ftrLink"><a class="link link--ftr" href="<?php bloginfo('url'); ?>/?page_id=162">G400 Rear Loader</a></li>
 						<li class="item item--ftrLink"><a class="link link--ftr" href="<?php bloginfo('url'); ?>/?page_id=30">G300C Rear Loader</a></li>
 						<li class="item item--ftrLink"><a class="link link--ftr" href="<?php bloginfo('url'); ?>/?page_id=28">Automatic Side Loader</a></li>

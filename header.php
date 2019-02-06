@@ -11,6 +11,23 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/theme-ezpk/js/doubletaptogo.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/theme-ezpk/js/csth-scripts-min.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63170690-9"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'UA-63170690-9');
+	</script>
+<script type='text/javascript'>
+(function (d, t) {
+  var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+  bh.type = 'text/javascript';
+  bh.src = 'https://www.bugherd.com/sidebarv2.js?apikey=voawb3rpwqcwif8vzbynbw';
+  s.parentNode.insertBefore(bh, s);
+  })(document, 'script');
+</script>
 </head>
 
 <body <?php body_class(); ?>>

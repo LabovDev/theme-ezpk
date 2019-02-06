@@ -132,8 +132,8 @@ get_header(); ?>
 		</section> <!-- END .blocFeatSplit -->
 
 		<section class="wrap blocCta">
-			<a href="http://www.continentalmixers.com/" target="_blank" class="btn btn--prd btn--dark">Vist Continental Mixer Website</a>
-			<a href="https://www.onesourceparts.com/" target="_blank" class="btn btn--prd btn--dark">Vist One Source Parts Website</a>
+			<a href="http://www.continentalmixers.com/" target="_blank" class="btn btn--prd btn--dark">Visit Continental Mixer Website</a>
+			<a href="http://www.onesourceparts.com/" target="_blank" class="btn btn--prd btn--dark">Visit One Source Parts Website</a>
 		</section> <!-- END .blocCta -->
 			
 		</div> <!-- END .wrap--mxw -->

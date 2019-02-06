@@ -39,7 +39,7 @@ get_header(); ?>
 				<h1 class="hdln hdln--stock"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 				<?php the_content(); ?>
 				<div class="wrap truckCta">
-					<a href="<?php the_permalink(); ?>" class="btn btn--dark">Contact Us About This Truck</a>
+					<a href="<?php bloginfo('url'); ?>/?page_id=16" class="btn btn--dark">Contact Us About This Truck</a>
 					<a href="<?php the_permalink(); ?>" class="btn">More Info</a>
 				</div>
 			</div>

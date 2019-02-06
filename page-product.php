@@ -79,7 +79,7 @@ get_header(); ?>
 		
 		<section class="wrap blocCta">
 			<a href="<?php the_field('prd_bro_link'); ?>" class="btn btn--prd">Download Brochure PDF</a>
-			<a href="<?php bloginfo('url'); ?>/?page_id=16" class="btn btn--prd btn--dark">Contact Us About This Mixer</a>
+			<a href="<?php bloginfo('url'); ?>/?page_id=16" class="btn btn--prd btn--dark">Contact Us About This Product Line</a>
 		</section> <!-- END .blocCta -->
 		
 <!--<section class="wrap blocSpecs">
